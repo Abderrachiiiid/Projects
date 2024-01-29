@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>About Me</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Sharing stuff about myself">
+        <meta name="keywords" content="School, programming, math, failures, sucess, childhood">
+        <meta name="author" content="Abderrachid Sghir">
+
+        <meta property="og:title" content="Myself">
+        <meta property="og:description" content="Sharing stuff about myself">
+        <meta property="og:image" content="me.png">
+        <meta property="og:url" content="https://citwebdev.cscc.edu/~asghir/csci1145/project8/home.html">
+        <meta property="og:type" content="website">
+    </head>
+    <body>
+        <p id="changeColor">Hi, I'm Abderrachid</p>
+        <script>
+            var paragraph = document.getElementById("changeColor");
+            if (paragraph) {
+                paragraph.style.color = "blue";
+            }
+        </script>
+        <hr>
+        <h1><img src="logo.png" alt="logo"></h1>
+        <hr>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="page1.html">My studies</a></li>
+                    <li><a href="page2.html">Family Tree</a></li>
+                    <li><a href="page3.html">Locations I've explored</a></li>
+                    <li><a href="page4.html">My Accomplishements</a></li>
+                    <li><a href="https://www.instagram.com/abderrachidd/" target="_blank">My Socials</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h2>About Me</h2>
+            <p>"I'm a disciplined computer science engineering student, and I am fully dedicated to my studies and committed to excelling at my school, and this is a page that talks about me, you can leave a review on how do you like my page."</p>
+            <p>Explore more about the web:</p>
+            <p><a href="https://www.w3.org/">World Wide Web Consortium (W3C)</a></p>
+            <p><a href="https://www.searchenginejournal.com/">Search Engine Journal</a></p>
+            <p><a href="https://developers.google.com/search/docs/beginner/seo-starter-guide">Google's SEO Starter Guide</a></p>
+            <p><a href="https://www.techradar.com/">TechRadar - Technology News</a></p>
+            <p><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></p>
+            <p><a href="https://web.dev/">Google Web Developers</a></p>
+        </section>
+        <section>
+            <img alt="This is me" src="me.png">
+        </section>
+        <form>
+            <fieldset>
+              <legend>Please provide your feedback on My Website</legend>
+        
+        
+              <label for="first-name">First Name:</label>
+              <input type="text" id="first-name" name="first-name" required><br><br>
+        
+              <label for="last-name">Last Name:</label>
+              <input type="text" id="last-name" name="last-name" required><br><br>
+        
+        
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required><br><br>
+        
+              <label for="satisfaction">Satisfaction on My Page:</label>
+              <select id="satisfaction" name="satisfaction">
+                <option value="1">1 (Unhappy)</option>
+                <option value="2">2 (Not Satisfied)</option>
+                <option value="3">3 (Neutral)</option>
+                <option value="4">4 (Satisfied)</option>
+                <option value="5">5 (Very Satisfied)</option>
+              </select><br><br>
+        
+        
+              <label for="feedback">Feedback:</label><br>
+              <textarea id="feedback" name="feedback" rows="5" cols="33" required></textarea><br><br>
+        
+        
+              <input type="submit" value="Submit">
+            </fieldset>
+          </form>
+        <footer>
+            <p><a href="mailto:sghirabderrachid97@gmail.com">Email me</a></p>
+        </footer>
+    </body>
+</html>
